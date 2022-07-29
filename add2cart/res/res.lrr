@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2021.0.0.0
+Path=D:\Analyzer results\addtocart.lrs
+Subject=addtocart
+Result_file=D:\Controller results\add2cart\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-19800
+Start_time=1658903281
+Daylight_Bias=0
+Stop_time=1658903352
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 5 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:00:30 (HH:MM:SS); Stop all Vusers: 1 every 00:00:05 (HH:MM:SS)
+Load Behavior=Initialize 5 Vusers every 00:00:05 (HH:MM:SS)
+Global Schedule=ST5_1E5;R30;SP5_1E5;
+[Scripts]
+addtocard=D:\VUGenerator\addtocard\addtocard.usr
+[Scripts_types]
+addtocard=Multi+QTWeb

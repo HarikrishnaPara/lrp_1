@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=D:\Analyzer results\addtocart.lrs
+Completed=0
